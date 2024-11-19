@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/cabecalho_rodape.css">
+    <title>Site em Tela Cheia</title>
+    <style>
+        main{
+            width: 100%;
+            height: 80vh;
+            background-color: #fafad2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;   
+        }
+
+        .text-box {
+            width: 90%;
+            height: 30%;
+            display: flex;
+            
+        }
+
+        .fotos {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .textos_profs {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #6B8E23;
+            border-radius: 20px;
+        }
+        .text-box p {
+            width: 90%;
+            height: 80%;
+            font-size: 26px;
+            text-align: justify;
+        }
+
+        .text-box img {
+            width: 50%;
+            height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logotipo_cabecalho">
+            <img src="../img/logotipo.png" alt="logotipo_blog">
+        </div>
+        <div id="titulo_cabecalho">
+            <h1>Blog do Meio Ambiente</h1>
+        </div>
+        <div id="botoes_cabecalho">
+            <a href="../index.html" class="botoes">Home</a>
+            <a href="../paginas/sobre.html" class="botoes">Sobre</a>
+            <a href="../paginas/mediadores.html" class="botoes">Mediadores</a>
+            
+        </div>
+    </header>
+    <main>
+        <div class="text-box">
+            <div class="fotos">
+                <img src="../img/hilario.png" id="img1">
+            </div>
+            <div class="textos_profs">
+                <p><strong>Hilário Helbe Júnior:</strong> professor de geografia e história, desenvolveu o projeto junto com o Vinícius, trazendo em tese na palestra o projeto do meio ambiente para que trabalhasse com a turma a preservação do Parque Ecológico, apresentando o trabalho dos profissionais do Horto Florestal, através de uma visita para base do projeto, além de promover uma ação de plantio na Feira do Conhecimento do Sesc/Senac no Parque Ecológico.</p>
+            </div>
+            
+        </div>
+        <div class="text-box">
+            <div class="textos_profs">
+                <p><strong>Vinícius Lauriano Ferreira:</strong> professor de Sociologia e Filosofia, apresentou junto com Hilário uma tese sobre o meio ambiente em uma palestra. A contribuição deles foi apresentar a proposta inicial de um projeto, oferecendo reflexões e críticas sobre a interação e as escolhas diárias da humanidade em relação ao meio ambiente.</p>
+            </div>
+            <div class="fotos">
+                <img src="../img/vinicius.jpg" id="img1">
+            </div>
+            
+        </div>
+        <div class="text-box">
+            <div class="fotos">
+                <img src="../img/juscelino.jpg" id="img1">
+            </div>
+            
+            <div class="textos_profs">
+                <p><strong> Jucelino Biagini:</strong> professor de artes que contribuiu para a restauração e o desenvolvimento da arte do muro. A ideia partiu da coordenadora do Sesc, que propôs que os alunos participassem do projeto, ajudando na pintura. Assim, a cultura e a história da cidade de Jacarezinho foram trazidas para o Parque Ecológico.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>1º ano Ensino Médio Integrado - Sesc/Senac</h1>
+    </footer>
+</body>
+</html>
